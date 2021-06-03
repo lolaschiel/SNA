@@ -1,0 +1,137 @@
+# Datensatz Podcasts
+Podcast Codebuch
+erstellt von Alisa Rathke (ar149@hdm-stuttgart.de)
+
+## Inhalt
+- Edges.csv (Edgelist)
+- Nodes.csv (Nodelist)
+- Codebuch.md (Codierung der Datensätze)
+
+## Das Netzwerk ist ein *ungerichtetes two-mode Netzwerk*.
+
+# EDGE-Attribute
+
+**id**  
+(eindeutige Codierung des Knoten)   
+Abkürzungen der Namen
+
+**weight**   
+1 = folgen sich auf Instagram
+2 = Gast bei einer Show/einem Podcast
+3 = Gemeinsamer Podcast
+4 = Mehrere gemeinsame Sendungen
+
+**relation**
+1 = angestellt bei einer Produktionsfirma
+2 = Moderator - Gast
+3 = zwei Moderatoren
+
+
+# NODE-Attribute  
+  
+**id**  
+Abkürzungen der Namen
+
+**name**
+Name oder Bezeichnung des Knotens
+
+**name2** 
+Vorname abgekürzt, z.B. für Visualiserung, falls der Name zu lange ist
+
+**sex**     
+Definiert das Geschlecht
+1 = weiblich  
+2 = männlich  
+3 = divers
+  
+**genre***     
+Definiert das Genre des Podcasts/der Show
+1 = Comedy  
+2 = Nachrichten und Politik
+3 = True Crime
+4 = Wissen
+5 = Lifestyle und Gesundheit
+6 = Business und Technologie
+7 = Sport und Freizeit
+8 = Gaming
+9 = Musik
+10 = Kultur
+11 = Hörspiele
+12 = Interviews, Kunst und Unterhaltung
+
+**work**   
+Beruf des/der Moderator*in
+1 = Moderator*in
+2 = Journalist*in
+3 = Schauspieler*in
+4 = Autor*in
+5 = Comedian
+6 = Selbstständige*r  
+7 = Unternehmer*in
+8 = Sänger*in
+9 = Video-/Fernseh-Produzent*in
+
+**type**    
+Unterscheidung zwischen Akteur und Event
+1 = Akteur   
+2 = Event
+  
+**year**      
+Erscheinungsjahr des Podcasts
+1 = 2005-2015
+2 = 2016
+3 = 2017  
+4 = 2018  
+5 = 2019
+6 = 2020
+7 = 2021
+
+**age**    
+Alter des/der Podcaster*in
+1 = 18-24 
+2 = 25-29 
+3 = 30-34 
+4 = 35-39 
+5 = 40-44 
+6 = 45-49 
+7 = 50-54 
+8 = 55-59 
+9 = 60-65    
+
+**listener**  
+Zuhörer pro Woche
+1 = 1-9.999
+2 = 10.000-19.999 
+3 = 20.000-39.999
+4 = 40.000-59.999
+5 = 60.000-79.999
+6 = 80.000-99.999
+7 = 100.000-399.999
+8 = 400.000-699.999
+9 = 700.000-999.999
+10 = 1.000.000-1.199.999
+11 = 1.200.000-1.500.000
+
+**uploads**
+Zyklus, in dem eine neue Folge hochgeladen wird
+1 = täglich
+2 = mehrmals wöchentlich
+3 = 1x wöchentlich
+4 = 14-tägig
+5 = seltener
+
+**duration**
+Dauer einer Podcast-Folge
+1 = 0-10min
+2 = 11-20min
+3 = 21-30min
+4 = 31-40min
+5 = 41-50 min
+6 = 51-60min
+7 = 61-70min
+8 = 71-80min
+9 = 81-90min
+10 = 91-100min
+11 = 101-120min
+
+##
