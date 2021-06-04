@@ -1,6 +1,6 @@
-# Datensatz Podcasts
+# Datensatz Podcasts #
 Podcast Codebuch
-erstellt von Alisa Rathke (ar149@hdm-stuttgart.de)
+erstellt von Alisa Rathke, Lola Schiel, Judith Hartmann, Laureta Nrecaj
 
 ## Inhalt
 - Edges.csv (Edgelist)
@@ -22,9 +22,12 @@ Abkürzungen der Namen
 4 = Mehrere gemeinsame Sendungen
 
 **relation**
-1 = angestellt bei einer Produktionsfirma
-2 = Moderator - Gast
-3 = zwei Moderatoren
+definiert die Art der Beziehung bei multiplexen Netzwerken mit verschiedenen Beziehungsarten 
+1 = zwischen Moderatoren eines Podcasts
+2 = zwischen Moderator und Gast
+3 = zwischen Moderatoren unterschiedlicher Shows
+4 = zwischen Gästen
+5 = Angestelltenverhältnis
 
 
 # NODE-Attribute  
@@ -74,7 +77,8 @@ Beruf des/der Moderator*in
 **type**    
 Unterscheidung zwischen Akteur und Event
 1 = Akteur   
-2 = Event
+2 = Podcast/Show
+3 = Produktionsfirma
   
 **year**      
 Erscheinungsjahr des Podcasts
@@ -116,8 +120,8 @@ Zuhörer pro Woche
 Zyklus, in dem eine neue Folge hochgeladen wird
 1 = täglich
 2 = mehrmals wöchentlich
-3 = 1x wöchentlich
-4 = 14-tägig
+3 = einnmal wöchentlich
+4 = alle zwei Wochen
 5 = seltener
 
 **duration**
